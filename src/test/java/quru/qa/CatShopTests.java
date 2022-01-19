@@ -25,5 +25,4 @@ public class CatShopTests extends TestBase {
 
     }
 
-
 }
