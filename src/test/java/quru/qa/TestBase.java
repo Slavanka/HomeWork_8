@@ -7,7 +7,7 @@ public class TestBase {
 
     @BeforeAll
     static void setUp() {
-        com.codeborne.selenide.Configuration.baseUrl = "https://habr.com";
+        Configuration.baseUrl = "https://habr.com";
         Configuration.browserSize = "1920x1080";
     }
 }
